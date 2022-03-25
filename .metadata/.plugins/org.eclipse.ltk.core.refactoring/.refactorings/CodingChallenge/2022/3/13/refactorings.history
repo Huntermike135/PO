@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sta&apos; in &apos;com.revature.POStack.main(...)&apos; to &apos;sampleStack&apos;&#x0D;&#x0A;- Original project: &apos;CodingChallenge&apos;&#x0D;&#x0A;- Original element: &apos;com.revature.POStack.main(String[]).sta&apos;&#x0D;&#x0A;- Renamed element: &apos;sta&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sta&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.revature{POStack.java[POStack~main~\[QString;@sta!1569!1597!1577!1579!QPOStack;!0!false" name="sampleStack" references="true" stamp="1648211697390" version="1.0"/>
+</session>

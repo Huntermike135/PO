@@ -1,0 +1,41 @@
+package com.revature;
+
+import java.util.Stack;
+
+//Implement a stack that has the following methods:
+//• push ( val ) : push val onto the stack
+//• pop: pop off and return the topmost element of the stack. If there are no elements in the stack, throw an error.
+//• max: return the maximum value in the stack currently. If there are no elements in the stack, throw an error.
+
+public class POStack {
+	public static void main(String[] args) throws Exception {
+		Stack<String> val = new Stack<>();
+		val.push("v");
+		print(val);
+		val.push("a");
+		print(val);
+		val.push("l");
+		print(val);
+
+		val.pop();
+		print(val);
+		val.pop();
+		print(val);
+
+		if (val.size() == 0) {
+			throw new Exception("Stack ran out");
+		}
+		System.out.println(val.size());
+
+	}
+
+	public static void print(Stack<String> v) throws Exception {
+
+		if (v.isEmpty()) {
+			throw new Exception("Stack is now empty");
+		} else {
+			System.out.println(v);
+		}
+	}
+
+}
